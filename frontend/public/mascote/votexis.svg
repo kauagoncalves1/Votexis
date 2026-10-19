@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" width="240" height="280" role="img" aria-label="Votexis - mascote placeholder">
+  <defs>
+    <linearGradient id="corpo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+  <!-- sombra -->
+  <ellipse cx="120" cy="262" rx="46" ry="8" fill="#000" opacity=".15"/>
+  <!-- antena em V -->
+  <path d="M92 38 L120 70 L148 38" fill="none" stroke="#22d3ee" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="92" cy="36" r="7" fill="#22d3ee"/>
+  <circle cx="148" cy="36" r="7" fill="#22d3ee"/>
+  <!-- cabeca -->
+  <rect x="50" y="64" width="140" height="104" rx="40" fill="url(#corpo)"/>
+  <!-- visor -->
+  <rect x="66" y="88" width="108" height="56" rx="26" fill="#0f172a"/>
+  <!-- olhos -->
+  <ellipse cx="96" cy="116" rx="11" ry="14" fill="#22d3ee"/>
+  <ellipse cx="144" cy="116" rx="11" ry="14" fill="#22d3ee"/>
+  <circle cx="99" cy="110" r="4" fill="#fff" opacity=".85"/>
+  <circle cx="147" cy="110" r="4" fill="#fff" opacity=".85"/>
+  <!-- corpo -->
+  <rect x="78" y="176" width="84" height="56" rx="24" fill="url(#corpo)"/>
+  <circle cx="120" cy="204" r="9" fill="#22d3ee"/>
+  <!-- bracos -->
+  <rect x="48" y="184" width="26" height="14" rx="7" fill="#6366f1"/>
+  <rect x="166" y="184" width="26" height="14" rx="7" fill="#6366f1"/>
+  <!-- propulsor -->
+  <path d="M104 234 H136 L128 256 H112 Z" fill="#f97316"/>
+</svg>

@@ -1,0 +1,42 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ===== Ambiente =====
+.env
+*.env.local
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Node (frontend futuro) =====
+node_modules/
+.next/
+out/
+
+# ===== Testes e cobertura =====
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ===== Alembic =====
+# (o diretório alembic/ é versionado, mas __pycache__ dentro dele não)
+
+# ===== Gemini/Antigravity =====
+.gemini/
